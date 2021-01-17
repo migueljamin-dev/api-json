@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "deploy",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+ 
+    "scripts": {
+      "json-server":"json-server",
+      "start": "json-server db.json",
+      "postinstall": "npm run json-server"
+    
   },
   "repository": {
     "type": "git",
